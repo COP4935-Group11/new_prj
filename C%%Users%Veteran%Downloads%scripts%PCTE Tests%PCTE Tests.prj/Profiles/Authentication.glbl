@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Authentication</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pcte.us.to'</initValue>
+      <name>portal_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pcte.us.to/phpmyadmin'</initValue>
+      <name>db_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>true</initValue>
+      <name>production_zone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>false</initValue>
+      <name>sso</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>delay_scale</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(1, 1)</initValue>
+      <name>user1_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(2, 1)</initValue>
+      <name>user1_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(3, 1)</initValue>
+      <name>user1_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(4, 1)</initValue>
+      <name>user1_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(5, 1)</initValue>
+      <name>user1_console</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(1, 2)</initValue>
+      <name>user2_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(2, 2)</initValue>
+      <name>user2_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(3, 2)</initValue>
+      <name>user2_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(4, 2)</initValue>
+      <name>user2_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('User Login').getValue(5, 2)</initValue>
+      <name>user2_console</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(1, 1)</initValue>
+      <name>author_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(2, 1)</initValue>
+      <name>author_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(3, 1)</initValue>
+      <name>author_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(4, 1)</initValue>
+      <name>author_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(1, 2)</initValue>
+      <name>manager_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(2, 2)</initValue>
+      <name>manager_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(3, 2)</initValue>
+      <name>manager_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(4, 2)</initValue>
+      <name>manager_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(1, 3)</initValue>
+      <name>orgadmin_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(2, 3)</initValue>
+      <name>orgadmin_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(3, 3)</initValue>
+      <name>orgadmin_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(4, 3)</initValue>
+      <name>orgadmin_key</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(1, 4)</initValue>
+      <name>god_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(2, 4)</initValue>
+      <name>god_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(3, 4)</initValue>
+      <name>god_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Admin Login').getValue(4, 4)</initValue>
+      <name>god_key</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

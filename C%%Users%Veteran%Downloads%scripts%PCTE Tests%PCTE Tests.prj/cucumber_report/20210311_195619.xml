@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites failures="2" name="Smoke" tests="2" time="6.506659"><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.506659">
+    <testcase classname="PCTE Portal Login" name="User Login" time="3.935764">
+        <failure message="java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.Y05s4V}, goog:chromeOptions: {debuggerAddress: localhost:35421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b3ffc7a09b2864ddec4e02172a5e249b&#10;*** Element info: {Using=xpath, value=//input[@name='username']}&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)&#10;&#9;at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)&#10;&#9;at com.stepdefinitions.Login.loginToPortal(com.stepdefinitions.Login:128)&#10;&#9;at ✽.I log into the PCTE Portal(temp/features/portalLogin.feature:12)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+When I log into the PCTE Portal.............................................failed
+Then I should be able to access the PCTE Portal.............................skipped
+
+StackTrace:
+java.lang.AssertionError: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.Y05s4V}, goog:chromeOptions: {debuggerAddress: localhost:35421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3ffc7a09b2864ddec4e02172a5e249b
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)
+	at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)
+	at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)
+	at com.stepdefinitions.Login.loginToPortal(com.stepdefinitions.Login:128)
+	at ✽.I log into the PCTE Portal(temp/features/portalLogin.feature:12)
+]]></failure>
+    </testcase>
+    <testcase classname="PCTE Portal Login" name="User Logout" time="2.570895">
+        <failure message="org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='password']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at com.ucf.pcte.gold.WebUI.setEncryptedText(WebUI.groovy:994)&#10;&#9;at com.ucf.pcte.gold.WebUI$setEncryptedText$5.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)&#10;&#9;at com.stepdefinitions.Login.login(com.stepdefinitions.Login:62)&#10;&#9;at com.stepdefinitions.Login.getLoggedIn(com.stepdefinitions.Login:117)&#10;&#9;at ✽.I am logged into the PCTE Portal(temp/features/portalLogin.feature:17)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+And I am logged into the PCTE Portal........................................failed
+When I logout of the PCTE Portal............................................skipped
+Then I should no longer have access to the PCTE Portal......................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//input[@name='password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ucf.pcte.gold.WebUI.setEncryptedText(WebUI.groovy:994)
+	at com.ucf.pcte.gold.WebUI$setEncryptedText$5.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at com.stepdefinitions.Login.login(com.stepdefinitions.Login:62)
+	at com.stepdefinitions.Login.getLoggedIn(com.stepdefinitions.Login:117)
+	at ✽.I am logged into the PCTE Portal(temp/features/portalLogin.feature:17)
+]]></failure>
+    </testcase>
+</testsuite></testsuites>

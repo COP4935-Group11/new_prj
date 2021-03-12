@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>T9001 Portal Login and Authentication - 2FA Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>243a417b-b757-4949-92ce-e1204c1475eb</testCaseGuid>
+   <variable>
+      <defaultValue>'T9001'</defaultValue>
+      <description></description>
+      <id>1d8c2bd3-8d92-4ae0-8dff-8bf599acd6aa</id>
+      <masked>false</masked>
+      <name>test_code</name>
+   </variable>
+</TestCaseEntity>

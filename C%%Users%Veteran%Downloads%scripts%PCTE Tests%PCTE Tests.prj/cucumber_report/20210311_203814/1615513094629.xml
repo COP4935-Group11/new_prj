@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="24.688457">
+    <testcase classname="PCTE Portal Login" name="User Login" time="9.822837">
+        <system-out><![CDATA[Given I am at the PCTE Portal...............................................passed
+When I log into the PCTE Portal.............................................passed
+Then I should be able to access the PCTE Portal.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="PCTE Portal Login" name="User Logout" time="14.86562">
+        <system-out><![CDATA[Given I am at the PCTE Portal...............................................passed
+And I am logged into the PCTE Portal........................................passed
+When I logout of the PCTE Portal............................................passed
+Then I should no longer have access to the PCTE Portal......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

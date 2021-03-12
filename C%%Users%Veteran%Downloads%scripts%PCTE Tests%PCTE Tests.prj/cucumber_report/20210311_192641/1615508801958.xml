@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.137805">
+    <testcase classname="PCTE Portal Login" name="User Login" time="3.650912">
+        <failure message="java.lang.AssertionError: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)&#10;&#9;at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)&#10;&#9;at com.stepdefinitions.Login.loginToPortal(com.stepdefinitions.Login:128)&#10;&#9;at ✽.I log into the PCTE Portal(temp/features/portalLogin.feature:12)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+When I log into the PCTE Portal.............................................failed
+Then I should be able to access the PCTE Portal.............................skipped
+
+StackTrace:
+java.lang.AssertionError: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)
+	at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)
+	at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)
+	at com.stepdefinitions.Login.loginToPortal(com.stepdefinitions.Login:128)
+	at ✽.I log into the PCTE Portal(temp/features/portalLogin.feature:12)
+]]></failure>
+    </testcase>
+    <testcase classname="PCTE Portal Login" name="User Logout" time="2.486893">
+        <failure message="java.lang.AssertionError: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)&#10;&#9;at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)&#10;&#9;at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)&#10;&#9;at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)&#10;&#9;at com.stepdefinitions.Login.getLoggedIn(com.stepdefinitions.Login:117)&#10;&#9;at ✽.I am logged into the PCTE Portal(temp/features/portalLogin.feature:17)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+And I am logged into the PCTE Portal........................................failed
+When I logout of the PCTE Portal............................................skipped
+Then I should no longer have access to the PCTE Portal......................skipped
+
+StackTrace:
+java.lang.AssertionError: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:213)
+	at com.ucf.pcte.gold.WebUI$setText$4.callStatic(Unknown Source)
+	at com.ucf.pcte.gold.WebUI.setText(WebUI.groovy:67)
+	at com.ucf.pcte.gold.WebUI$setText$3.call(Unknown Source)
+	at com.stepdefinitions.Login.login(com.stepdefinitions.Login:59)
+	at com.stepdefinitions.Login.getLoggedIn(com.stepdefinitions.Login:117)
+	at ✽.I am logged into the PCTE Portal(temp/features/portalLogin.feature:17)
+]]></failure>
+    </testcase>
+</testsuite>

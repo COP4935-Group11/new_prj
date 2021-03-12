@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuites failures="2" name="Smoke" tests="2" time="21.999251"><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="21.999251">
+    <testcase classname="PCTE Portal Login" name="User Login" time="12.713155">
+        <failure message="java.lang.AssertionError: org.openqa.selenium.WebDriverException: chrome not reachable&#10;  (Session info: chrome=89.0.4389.82)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.mbS1Yd}, goog:chromeOptions: {debuggerAddress: localhost:42575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0ddd9312772e3bc57c0578e8830b25c3&#10;*** Element info: {Using=xpath, value=//a[contains(text(),'Account')]}&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at com.ucf.pcte.gold.WebUI.verifyElementPresent(WebUI.groovy:624)&#10;&#9;at com.ucf.pcte.gold.WebUI$verifyElementPresent$9.callStatic(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)&#10;&#9;at com.ucf.pcte.gold.WebUI.verifyElementPresent(WebUI.groovy:79)&#10;&#9;at com.ucf.pcte.gold.WebUI$verifyElementPresent$8.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)&#10;&#9;at com.stepdefinitions.Login.confirmInitialPage(com.stepdefinitions.Login:175)&#10;&#9;at ✽.I should be able to access the PCTE Portal(temp/features/portalLogin.feature:13)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+When I log into the PCTE Portal.............................................passed
+Then I should be able to access the PCTE Portal.............................failed
+
+StackTrace:
+java.lang.AssertionError: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.mbS1Yd}, goog:chromeOptions: {debuggerAddress: localhost:42575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ddd9312772e3bc57c0578e8830b25c3
+*** Element info: {Using=xpath, value=//a[contains(text(),'Account')]}
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.ucf.pcte.gold.WebUI.verifyElementPresent(WebUI.groovy:624)
+	at com.ucf.pcte.gold.WebUI$verifyElementPresent$9.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:249)
+	at com.ucf.pcte.gold.WebUI.verifyElementPresent(WebUI.groovy:79)
+	at com.ucf.pcte.gold.WebUI$verifyElementPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:148)
+	at com.stepdefinitions.Login.confirmInitialPage(com.stepdefinitions.Login:175)
+	at ✽.I should be able to access the PCTE Portal(temp/features/portalLogin.feature:13)
+]]></failure>
+    </testcase>
+    <testcase classname="PCTE Portal Login" name="User Logout" time="9.286096">
+        <failure message="java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a/i&quot;}&#10;  (Session info: chrome=89.0.4389.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#10;System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.AzS2Fc}, goog:chromeOptions: {debuggerAddress: localhost:33775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 55d29671002b9ea536880d1e23ae54cd&#10;*** Element info: {Using=xpath, value=//a/i}&#10;&#9;at org.junit.Assert.fail(Assert.java:89)&#10;&#9;at com.ucf.pcte.gold.WebUI.click(WebUI.groovy:182)&#10;&#9;at com.ucf.pcte.gold.WebUI$click$7.callStatic(Unknown Source)&#10;&#9;at com.ucf.pcte.gold.WebUI.click(WebUI.groovy:66)&#10;&#9;at com.ucf.pcte.gold.WebUI$click$6.call(Unknown Source)&#10;&#9;at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)&#10;&#9;at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)&#10;&#9;at com.stepdefinitions.Login.logout(com.stepdefinitions.Login:151)&#10;&#9;at ✽.I logout of the PCTE Portal(temp/features/portalLogin.feature:18)&#10;"><![CDATA[Given I am at the PCTE Portal...............................................passed
+And I am logged into the PCTE Portal........................................passed
+When I logout of the PCTE Portal............................................failed
+Then I should no longer have access to the PCTE Portal......................skipped
+
+StackTrace:
+java.lang.AssertionError: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a/i"}
+  (Session info: chrome=89.0.4389.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'debian', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.AzS2Fc}, goog:chromeOptions: {debuggerAddress: localhost:33775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 55d29671002b9ea536880d1e23ae54cd
+*** Element info: {Using=xpath, value=//a/i}
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.ucf.pcte.gold.WebUI.click(WebUI.groovy:182)
+	at com.ucf.pcte.gold.WebUI$click$7.callStatic(Unknown Source)
+	at com.ucf.pcte.gold.WebUI.click(WebUI.groovy:66)
+	at com.ucf.pcte.gold.WebUI$click$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at com.stepdefinitions.Login.logout(com.stepdefinitions.Login:151)
+	at ✽.I logout of the PCTE Portal(temp/features/portalLogin.feature:18)
+]]></failure>
+    </testcase>
+</testsuite></testsuites>

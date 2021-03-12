@@ -1,0 +1,9 @@
+/bin
+/Libs
+/Libs/**
+.settings
+.classpath
+.project
+settings/internal/com.kms.katalon.composer.testcase.properties
+/Data\ Files/*.csv
+/Data\ Files/code.txt

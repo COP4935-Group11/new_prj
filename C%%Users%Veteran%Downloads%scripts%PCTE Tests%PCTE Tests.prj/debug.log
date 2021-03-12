@@ -1,0 +1,12 @@
+[0610/145735.848:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0629/144921.553:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0803/123042.650:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0803/162847.991:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0812/190744.084:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0812/194913.358:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0813/113549.058:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0816/021430.661:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0816/024851.368:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0816/034049.960:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0817/230754.749:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0819/210104.504:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
