@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>User Login</name>
+   <name>Admin Login</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>04cbfe8b-a4b0-42cf-89a3-3a95dfb214cf</dataFileGUID>
-   <dataSourceUrl>Data Files/User_Logins.csv</dataSourceUrl>
+   <dataFileGUID>50633b09-cf55-4338-ace6-f65cdc48f896</dataFileGUID>
+   <dataSourceUrl>Data Files/Admin_Logins.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Sheet1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
