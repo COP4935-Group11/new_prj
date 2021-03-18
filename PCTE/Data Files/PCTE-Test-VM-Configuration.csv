@@ -1,0 +1,9 @@
+VMName,Include,VMTemplate,ProvisionAction
+lariat,yes,Use Spec Template,Start
+is1,yes,Use Spec Template,Start
+is2,yes,Use Spec Template,Start
+is3,yes,Use Spec Template,Start
+is4,yes,Use Spec Template,Start
+red-1,yes,Use Spec Template,Start
+red-2,yes,Use Spec Template,Start
+red-3,yes,Use Spec Template,Start
